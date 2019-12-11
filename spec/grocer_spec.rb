@@ -119,3 +119,4 @@ describe "Grocer" do
   end
 end
 
+expect(checkout(cart: cart, coupons: [])).to eq(2.50)
